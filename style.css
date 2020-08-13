@@ -1,0 +1,42 @@
+textarea:focus, input:focus{
+    outline: none;
+}
+
+body{
+	background: #E1E8EC;
+	margin:0;
+	height: 100%;
+}
+
+.billing_section{
+	background-color: white;
+	float: right;
+	width: 35%;
+	height: 100vh;
+	margin:0;
+	border-left: 1px black solid;
+}
+
+#business_details{
+	font-family: Arial;
+	font-size: 15px;
+	border-bottom: 1px #BDC1C3 solid;
+}
+
+#search_section, input{
+	border:none;
+	font-size:18px;
+	padding: 10px;
+	width: 50%;
+}
+
+#search_section{
+	width: 90%;
+	background-color: white;
+}
+
+#search_icon{
+	height: 40px;
+	width:  40px;
+	float: right;
+}
